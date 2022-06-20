@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Courier+Prime&display=swap');
+
+.wrapper {
+    font-family: 'Carter one', cursive;
+    padding: 12px 24px 24px 24px;
+    margin: 48px 12px;
+    background-color: #FFF;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 17px 34px -20px #F1D18A;
+    box-shadow: 0px 17px 34px -20px #F1D18A;
+}
+label {
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+/* Add styles to 'input' and 'textarea' selectors */
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    font-family: 'Carter one', cursive;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Add styles to show 'focus' of selector */
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+    outline: none !important;
+    border-color: #F1D18A;
+    box-shadow: 0 0 10px #F1D18A;
+}
+
+/* Add styles to the submit button */
+input[type=submit] {
+    background-color: #f2e1bd;
+    border-radius: 12px;
+    color: #232931;
+    font-family:'Carter One', cursive;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+/* Add styles for 'focus' property */
+input[type=submit]:not(:disabled):hover,
+input[type=submit]:not(:disabled):focus {
+    outline: 0;
+    background: #F1D18A;
+    box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+input[type=submit]:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    -webkit-filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+}
+
+/* Align items to center of the 'div' with the class 'center' */
+.submitbutton {
+	text-align: center;
+}

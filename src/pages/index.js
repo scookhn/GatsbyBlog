@@ -1,5 +1,22 @@
-import React from "react"
+import * as React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
+import Head from "../components/head"
+import SuscribeForm from "../components/suscribe";
+import * as indexStyles from "./index.module.scss"
+import { Helmet } from "react-helmet";
 
-export default function Home() {
-  return <div>Hello world!</div>
+const IndexPage = () => {
+  return (
+    <Layout>
+      <Helmet>
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      </Helmet>
+      <Head title="Home"/>
+      <SuscribeForm />
+    </Layout>
+  )  
 }
+export default IndexPage
+
+
