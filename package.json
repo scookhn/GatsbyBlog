@@ -19,7 +19,6 @@
     "gatsby-plugin-image": "^2.16.1",
     "gatsby-plugin-mailchimp": "^5.2.2",
     "gatsby-plugin-react-helmet": "^5.16.0",
-    "gatsby-plugin-sass": "^5.15.0",
     "gatsby-plugin-sharp": "^4.16.1",
     "gatsby-remark-images": "^6.16.0",
     "gatsby-remark-relative-images": "^2.0.2",
